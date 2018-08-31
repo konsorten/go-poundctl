@@ -1,0 +1,91 @@
+<pound>
+<queue size="78"/>
+<listener index="0" protocol="HTTPS" address="1.1.0.30:443" status="active">
+<service index="0" name="kontainer-store" status="active">
+<backend index="0" address="1.1.1.30:8443" avg="0.000" priority="5" alive="yes" status="active" />
+</service>
+<service index="1" name="foo" status="active">
+<backend index="0" address="1.1.0.108:80" avg="0.000" priority="5" alive="yes" status="active" />
+</service>
+<service index="2" name="kubernetes---consul-cluster---zevenet-lb-integration-mainhttps---81d9144d25fb93469bffc7bc43e4314811636d0d" status="active">
+<backend index="0" address="1.1.40.7:31673" avg="0.000" priority="5" alive="yes" status="active" />
+<backend index="1" address="1.1.40.8:31673" avg="0.000" priority="5" alive="yes" status="active" />
+<backend index="2" address="1.1.40.9:31673" avg="0.000" priority="5" alive="yes" status="active" />
+<backend index="3" address="1.1.40.10:31673" avg="0.000" priority="5" alive="yes" status="active" />
+<backend index="4" address="1.1.40.11:31673" avg="0.000" priority="5" alive="yes" status="active" />
+<backend index="5" address="1.1.40.2:31673" avg="0.000" priority="5" alive="yes" status="active" />
+<backend index="6" address="1.1.40.3:31673" avg="0.000" priority="5" alive="yes" status="active" />
+<backend index="7" address="1.1.40.4:31673" avg="0.000" priority="5" alive="yes" status="active" />
+</service>
+<service index="3" name="kubernetes---gravitee-cluster---zevenet-lb-ui-mainhttps---bdf9e06465a9c6ff5cda70bdd97667c0f427f696" status="active">
+<backend index="0" address="1.1.40.7:32162" avg="0.000" priority="5" alive="yes" status="active" />
+<backend index="1" address="1.1.40.8:32162" avg="0.000" priority="5" alive="yes" status="active" />
+<backend index="2" address="1.1.40.9:32162" avg="0.000" priority="5" alive="yes" status="active" />
+<backend index="3" address="1.1.40.10:32162" avg="0.000" priority="5" alive="yes" status="active" />
+<backend index="4" address="1.1.40.11:32162" avg="0.000" priority="5" alive="yes" status="active" />
+<backend index="5" address="1.1.40.2:32162" avg="0.000" priority="5" alive="yes" status="active" />
+<backend index="6" address="1.1.40.3:32162" avg="0.000" priority="5" alive="yes" status="active" />
+<backend index="7" address="1.1.40.4:32162" avg="0.000" priority="5" alive="yes" status="active" />
+</service>
+<service index="4" name="kubernetes---gravitee-cluster---zevenet-lb-api-mainhttps---9cb978a11cf400eb04355885d6126ae67a4e5305" status="active">
+<backend index="0" address="1.1.40.7:30450" avg="0.000" priority="5" alive="yes" status="active" />
+<backend index="1" address="1.1.40.8:30450" avg="0.000" priority="5" alive="yes" status="active" />
+<backend index="2" address="1.1.40.9:30450" avg="0.000" priority="5" alive="yes" status="active" />
+<backend index="3" address="1.1.40.10:30450" avg="0.000" priority="5" alive="yes" status="active" />
+<backend index="4" address="1.1.40.11:30450" avg="0.000" priority="5" alive="yes" status="active" />
+<backend index="5" address="1.1.40.2:30450" avg="0.000" priority="5" alive="yes" status="active" />
+<backend index="6" address="1.1.40.3:30450" avg="0.000" priority="5" alive="yes" status="active" />
+<backend index="7" address="1.1.40.4:30450" avg="0.000" priority="5" alive="yes" status="active" />
+</service>
+<service index="5" name="kubernetes---docker-registry---zevenet-lb-integration-mainhttps---2f652af4a1bb49127c9fe17bcde7a6b3f0e792ce" status="active">
+<backend index="0" address="1.1.40.7:32403" avg="0.000" priority="5" alive="yes" status="active" />
+<backend index="1" address="1.1.40.8:32403" avg="0.000" priority="5" alive="yes" status="active" />
+<backend index="2" address="1.1.40.9:32403" avg="0.000" priority="5" alive="yes" status="active" />
+<backend index="3" address="1.1.40.10:32403" avg="0.000" priority="5" alive="yes" status="active" />
+<backend index="4" address="1.1.40.11:32403" avg="0.000" priority="5" alive="yes" status="active" />
+<backend index="5" address="1.1.40.2:32403" avg="0.000" priority="5" alive="yes" status="active" />
+<backend index="6" address="1.1.40.3:32403" avg="0.000" priority="5" alive="yes" status="active" />
+<backend index="7" address="1.1.40.4:32403" avg="0.000" priority="5" alive="yes" status="active" />
+</service>
+<service index="6" name="kubernetes---kubeless---kubernetes-proxy-mainhttps---647959f21ed3916ecef3c8027b9bd1cc9a4f1c15" status="active">
+<backend index="0" address="1.1.40.7:30917" avg="0.000" priority="5" alive="yes" status="active" />
+<backend index="1" address="1.1.40.8:30917" avg="0.000" priority="5" alive="yes" status="active" />
+<backend index="2" address="1.1.40.9:30917" avg="0.000" priority="5" alive="yes" status="active" />
+<backend index="3" address="1.1.40.10:30917" avg="0.000" priority="5" alive="yes" status="active" />
+<backend index="4" address="1.1.40.11:30917" avg="0.000" priority="5" alive="yes" status="active" />
+<backend index="5" address="1.1.40.2:30917" avg="0.000" priority="5" alive="yes" status="active" />
+<backend index="6" address="1.1.40.3:30917" avg="0.000" priority="5" alive="yes" status="active" />
+<backend index="7" address="1.1.40.4:30917" avg="0.000" priority="5" alive="yes" status="active" />
+</service>
+<service index="7" name="kubernetes---kubeless---kubeless-ui-mainhttps---e2c7027662d03dcc388556d165e47b50fd29008e" status="active">
+<backend index="0" address="1.1.40.7:30399" avg="0.000" priority="5" alive="yes" status="active" />
+<backend index="1" address="1.1.40.8:30399" avg="0.000" priority="5" alive="yes" status="active" />
+<backend index="2" address="1.1.40.9:30399" avg="0.000" priority="5" alive="yes" status="active" />
+<backend index="3" address="1.1.40.10:30399" avg="0.000" priority="5" alive="yes" status="active" />
+<backend index="4" address="1.1.40.11:30399" avg="0.000" priority="5" alive="yes" status="active" />
+<backend index="5" address="1.1.40.2:30399" avg="0.000" priority="5" alive="yes" status="active" />
+<backend index="6" address="1.1.40.3:30399" avg="0.000" priority="5" alive="yes" status="active" />
+<backend index="7" address="1.1.40.4:30399" avg="0.000" priority="5" alive="yes" status="active" />
+</service>
+<service index="8" name="kubernetes---zabbix-cluster---zevenet-lb-integration-mainhttps---c6309dc6805a21eedcbb271e45677bc0a8b237d8" status="active">
+<backend index="0" address="1.1.40.7:31625" avg="0.000" priority="5" alive="yes" status="active" />
+<backend index="1" address="1.1.40.8:31625" avg="0.000" priority="5" alive="yes" status="active" />
+<backend index="2" address="1.1.40.9:31625" avg="0.000" priority="5" alive="yes" status="active" />
+<backend index="3" address="1.1.40.10:31625" avg="0.000" priority="5" alive="yes" status="active" />
+<backend index="4" address="1.1.40.11:31625" avg="0.000" priority="5" alive="yes" status="active" />
+<backend index="5" address="1.1.40.2:31625" avg="0.000" priority="5" alive="yes" status="active" />
+<backend index="6" address="1.1.40.3:31625" avg="0.000" priority="5" alive="yes" status="active" />
+<backend index="7" address="1.1.40.4:31625" avg="0.000" priority="5" alive="yes" status="active" />
+</service>
+<service index="9" name="kubernetes---zabbix-cluster---zevenet-lb-webide-mainhttps---1d57b9ec6bdab4a3da07afe4c0d91a50c6dd0b28" status="active">
+<backend index="0" address="1.1.40.2:31653" avg="0.000" priority="5" alive="yes" status="active" />
+<backend index="1" address="1.1.40.3:31653" avg="0.000" priority="5" alive="yes" status="active" />
+<backend index="2" address="1.1.40.4:31653" avg="0.000" priority="5" alive="yes" status="active" />
+<backend index="3" address="1.1.40.7:31653" avg="0.000" priority="5" alive="yes" status="active" />
+<backend index="4" address="1.1.40.8:31653" avg="0.000" priority="5" alive="yes" status="active" />
+<backend index="5" address="1.1.40.9:31653" avg="0.000" priority="5" alive="yes" status="active" />
+<backend index="6" address="1.1.40.10:31653" avg="0.000" priority="5" alive="yes" status="active" />
+<backend index="7" address="1.1.40.11:31653" avg="0.000" priority="5" alive="yes" status="active" />
+</service>
+</listener>
+</pound>
